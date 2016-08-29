@@ -1,7 +1,9 @@
 <?php
 
-Route::get('/', 'AppController@index');
-Route::get('dashboard', 'AppController@dashboard');
+Route::auth();
+
+Route::get('/', 'HomeController@index');
+Route::get('/home', 'HomeController@index');
 
 $api = app('Dingo\Api\Routing\Router');
 
@@ -14,7 +16,11 @@ $api->version('v1', ['namespace' => 'App\Api\Controllers'], function ($api) {
 	$api->group( [ 'middleware' => 'jwt.auth' ], function ($api) {
 		$api->get('users/me', 'AuthController@me');
 		$api->get('validate_token', 'AuthController@validateToken');
-		
 		$api->resource('shows', 'ShowsController');
 	});
+});
+
+Route::group(['middleware' => 'admin'], function ($admin) {
+  $admin->get('admin', 'Admin\DashboardController@index');
+  $admin->get('admin/dashboard', 'Admin\DashboardController@dashboard');
 });

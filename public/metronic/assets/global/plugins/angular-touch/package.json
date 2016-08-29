@@ -1,0 +1,106 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "angular-touch",
+        "scope": null,
+        "escapedName": "angular-touch",
+        "name": "angular-touch",
+        "rawSpec": "",
+        "spec": "latest",
+        "type": "tag"
+      },
+      "/home/abhijeet/dev/projects/laravel/metronic-laravel"
+    ]
+  ],
+  "_from": "angular-touch@latest",
+  "_id": "angular-touch@1.5.8",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/angular-touch",
+  "_nodeVersion": "4.4.7",
+  "_npmOperationalInternal": {
+    "host": "packages-16-east.internal.npmjs.com",
+    "tmp": "tmp/angular-touch-1.5.8.tgz_1469201506456_0.6614391263574362"
+  },
+  "_npmUser": {
+    "name": "angularcore",
+    "email": "angular-core+npm@google.com"
+  },
+  "_npmVersion": "2.15.8",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "angular-touch",
+    "scope": null,
+    "escapedName": "angular-touch",
+    "name": "angular-touch",
+    "rawSpec": "",
+    "spec": "latest",
+    "type": "tag"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/angular-touch/-/angular-touch-1.5.8.tgz",
+  "_shasum": "b2443c435f8774617ee79bb11fb69ef4f5d5b8f5",
+  "_shrinkwrap": null,
+  "_spec": "angular-touch",
+  "_where": "/home/abhijeet/dev/projects/laravel/metronic-laravel",
+  "author": {
+    "name": "Angular Core Team",
+    "email": "angular-core+npm@google.com"
+  },
+  "bugs": {
+    "url": "https://github.com/angular/angular.js/issues"
+  },
+  "dependencies": {},
+  "description": "AngularJS module for touch events and helpers for touch-enabled devices",
+  "devDependencies": {},
+  "directories": {},
+  "dist": {
+    "shasum": "b2443c435f8774617ee79bb11fb69ef4f5d5b8f5",
+    "tarball": "https://registry.npmjs.org/angular-touch/-/angular-touch-1.5.8.tgz"
+  },
+  "gitHead": "303bfa9e400b2536dbc9e9fe781b31c2cab34665",
+  "homepage": "http://angularjs.org",
+  "jspm": {
+    "shim": {
+      "angular-touch": {
+        "deps": [
+          "angular"
+        ]
+      }
+    }
+  },
+  "keywords": [
+    "angular",
+    "framework",
+    "browser",
+    "touch",
+    "client-side"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "maintainers": [
+    {
+      "name": "angularcore",
+      "email": "angular-core+npm@google.com"
+    },
+    {
+      "name": "petebd",
+      "email": "pete@bacondarwin.com"
+    }
+  ],
+  "name": "angular-touch",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/angular/angular.js.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.5.8"
+}
